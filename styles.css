@@ -130,3 +130,45 @@ footer {
 .about-container p {
     margin: 0; 
 }
+
+.skills-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.skill-box {
+    background: #e7f1f5; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    flex: 1; 
+    margin: 10px; 
+    box-sizing: border-box; 
+    transition: transform 0.3s, background-color 0.3s; 
+}
+
+.skill-box:hover {
+    transform: scale(1.05); 
+    background: #177e89; 
+    color: #fff; 
+}
+
+.skill-box h3 {
+    color: inherit; 
+}
+
+.skill-box p {
+    color: inherit; 
+}
+
+/* Media query untuk layar kecil */
+@media (max-width: 768px) {
+    .skills-container {
+        flex-wrap: wrap; 
+    }
+    .skill-box {
+        flex: 1 1 100%; 
+    }
+}

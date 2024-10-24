@@ -94,7 +94,7 @@ section {
 
 footer {
     text-align: center;
-    padding: 15px 0;
+    padding: 10px 0;
     background: #323031; 
     color: #fff; 
     position: relative;
@@ -104,24 +104,31 @@ footer {
 
 .contact-info {
     display: flex;
-    flex-direction: row;
     justify-content: center; 
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .contact-info h3 {
     margin: 0 15px;
-    white-space: nowrap; 
-    color: #333; 
+    display: flex;
+    align-items: center;
+    color: #fff; 
+    font-weight: 300
 }
 
 .icon {
     width: 24px; 
     height: auto;
     margin-right: 8px;
-    vertical-align: middle;
+}
+
+.copyright {
+    font-size: 10px;
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 15px;
 }
 
 .about-container {
